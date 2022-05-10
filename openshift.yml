@@ -106,7 +106,7 @@ parameters:
 
 - name: GIT_REPO
   description: GIT REPO
-  value: 'https://github.com/abdelhamidfg/random-blocker-policy'
+  value: 'https://github.com/abdelhamidfg/random-blocker-policy.git'
 
 - name: APICAST_CUSTOM_NAMESPACE
   description: 'where to find the custom policies'
