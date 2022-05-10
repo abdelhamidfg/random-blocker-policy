@@ -82,7 +82,7 @@ objects:
       dockerStrategy:
         from:
           kind: ImageStreamTag
-          name: 'amp-apicast-custom:${CUSTOM_IS_TAG}'
+          name: 'amp-apicast:${CUSTOM_IS_TAG}'
           namespace: ${APICAST_CUSTOM_NAMESPACE}
       type: Docker
 #    triggers:
