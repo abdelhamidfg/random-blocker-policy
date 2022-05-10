@@ -36,7 +36,7 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: 'amp-apicast-custom-random:${CUSTOM_IS_TAG}'
+          name: 'amp-apicast:${CUSTOM_IS_TAG}'
           namespace: ${APICAST_CUSTOM_NAMESPACE}
 
 - apiVersion: v1
