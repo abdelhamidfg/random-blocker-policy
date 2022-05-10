@@ -1,6 +1,6 @@
 {
   "$schema": "http://apicast.io/policy-v1.1/schema#manifest#",
-  "name": "Random Blocker",
+  "name": "random-blocker",
   "summary": "block the request based on random number generated",
   "description":
     ["This Policy blocks the request if the generated randon number is even ,otherwise it allows the request. "],
