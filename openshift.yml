@@ -102,7 +102,7 @@ parameters:
 
 - name: NEW_POLICY_RELEASE
   description: The version of the policies
-  value: '0.1.0'
+  value: '1.0.0'
 
 - name: GIT_REPO
   description: GIT REPO
