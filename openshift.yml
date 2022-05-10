@@ -19,7 +19,7 @@ objects:
     annotations:
     labels:
       app: apicast
-    name: apicast-new-policy
+    name: apicast-random-policy
   spec:
     output:
       to:
@@ -36,7 +36,7 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: 'amp-apicast-custom:${CUSTOM_IS_TAG}'
+          name: 'amp-apicast-custom-random:${CUSTOM_IS_TAG}'
           namespace: ${APICAST_CUSTOM_NAMESPACE}
 
 - apiVersion: v1
@@ -45,7 +45,7 @@ objects:
     annotations:
     labels:
       app: apicast
-    name: apicast-custom
+    name: apicast-custom-random
   spec:
     nodeSelector: null
     output:
