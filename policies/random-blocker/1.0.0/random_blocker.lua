@@ -22,7 +22,7 @@ end
 function _M:access(context)
     local is_authorized = false
     local random = math.random(1,1000)
-    ngx.log(ngx.DEBUG, "random number=", random)
+    ngx.log(ngx.WARN, "random number=", random)
     if (random % 2 == 0) then
         is_authorized=true
     end      
