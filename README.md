@@ -33,7 +33,7 @@ spec:
         name: random-blocker-policy
       version: 1.0.0
 ```
-5. Create 3scale CustomPolicyDefinition Custom Resource 
+5. Create 3scale API Manager CustomPolicyDefinition Custom Resource 
  in order to view the policy configuration in the API Manager policy editor UI, the custom policy should be registered using customPolicyDefinition custom resource
 ```shell
 apiVersion: capabilities.3scale.net/v1beta1
