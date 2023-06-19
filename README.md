@@ -1,10 +1,10 @@
 
 ## 3scale Random Blocker Policy
 
-scale API Gateway  Policy blocks/allows the request  based on random number generation, If the generated number is even it will allow the request, otherwise it will block the request.
+3scale API Gateway  Policy blocks/allows the request  based on random number generation, If the generated number is even it will allow the request, otherwise it will block the request.
 
 
-## Policy Installation on OpenShift using APIcast self-managed
+## Policy Installation on OpenShift using 3scale APIcast self-managed
 
 1. Deploy a self-managed  APIcast gateway
   
