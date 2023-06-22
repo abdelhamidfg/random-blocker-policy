@@ -6,7 +6,6 @@
 
 ## Policy Installation on OpenShift using 3scale APIcast self-managed
 
-1. Deploy a self-managed  APIcast gateway
   
 1. Install the APIcast operator as described in the [documentation](https://github.com/3scale/apicast-operator/blob/master/doc/quickstart-guide.md#Install-the-APIcast-operator)
 2. Create a Kubernetes secret that contains a 3scale Porta admin portal endpoint information
