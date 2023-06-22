@@ -14,7 +14,7 @@ oc create secret generic 3scaleportal --from-literal=AdminPortalURL=https://acce
 ```
 3. create a secret containing the policy Lua files (the files exist in the  folder /policies/random_blocker/1.0.0)
 ```shell
-oc create secret generic random-blocker-policy   --from-file=random_blocker.lua   --from-file=init.lua   
+oc create secret generic random-blocker-policy   --from-file=random_blocker.lua   --from-file=init.lua --from-file=apicast-policy.json   
 ```
 4.Create APIcast custom resource instance
 ```shell
